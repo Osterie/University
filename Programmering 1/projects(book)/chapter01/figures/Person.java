@@ -15,11 +15,12 @@ public class Person
     private int yPosition;
     private String color;
     private boolean isVisible;
+    private String name;
 
     /**
      * Create a new person at default position with default color.
      */
-    public Person()
+    public Person(String fullName)
     {
         height = 60;
         width = 30;
@@ -27,8 +28,24 @@ public class Person
         yPosition = 190;
         color = "black";
         isVisible = false;
+        name = fullName;
     }
 
+    public void setName(String fullName)
+    {
+        name = fullName;
+    }
+    
+    public void printName()
+    {
+        System.out.println(name);
+    }
+    
+    public String getName()
+    {
+        return name;
+    }
+    
     /**
      * Make this person visible. If it was already visible, do nothing.
      */
