@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=NumberDisplay
+comment0.text=\r\n\ Represents\ a\ display\ showing\ a\ value\ with\ 2\ digits.\r\n\ The\ value\ displayed\ has\ a\ upper\ limit.\r\n\ The\ value\ should\ always\ be\ positive.\ (0\ or\ larger)\r\n\r\n\ @author\ Adrian\r\n\ @version\ 2023-09-04\r\n
+comment1.params=upperLimit
+comment1.target=NumberDisplay(int)
+comment2.params=
+comment2.target=void\ incrementValue()
+comment2.text=\r\n\ Increments\ the\ value\ by\ 1,\ if\ the\ upper\ limit\ is\ reached\ value\ is\ set\ to\ 0\r\n
+comment3.params=
+comment3.target=int\ getValue()
+numComments=4

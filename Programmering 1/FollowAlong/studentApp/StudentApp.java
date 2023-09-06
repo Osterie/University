@@ -9,25 +9,31 @@ import java.util.ArrayList;
 public class StudentApp
 {
 
-    
+    private void printStudentInfo(Student student)
+    {
+        System.out.println("Name of student: " + student.getName());
+        System.out.println("Age of student: " + student.getAge());
+        System.out.println("Student ID of student: " + student.getStudentId());
+        System.out.println("Student info: " + "," + student.getName() + "," + student.getAge() + "," +  student.getStudentId());
+    }
+
     public static void main(String[] args)
+    {
+        StudentApp studentApp = new StudentApp();
+        studentApp.start();
+
+    }
+
+
+
+
+    public void start()    
     {
         Student student1 = new Student("Arne", 54, "080808");
         Student student2 = new Student("Arne", 37, "080808");  
 
-        System.out.println("Name of student #1: " + student1.getName());
-        System.out.println("Name of student #2: " + student2.getName());
-
-
-    }
-
-    public void pritnShit()
-    {
-        // ArrayList<Student> arrayList = new ArrayList<Student>();  
-        // arrayList.add(this.student1); 
-        // arrayList.add(this.student2); 
-        // System.out.println("The average age of the students is: " + this.getAverageAge(arrayList));
-
+        printStudentInfo(student1);
+        printStudentInfo(student2);
     }
 
     public float getAverageAge(ArrayList<Student> students)

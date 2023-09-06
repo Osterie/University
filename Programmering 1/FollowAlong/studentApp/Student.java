@@ -48,4 +48,29 @@ public class Student
         return studentId;
     }
 
+    // Sets age of the student according to the given argument
+    // age must be a positive number
+    public void setAge(int studentAge)
+    {
+        if (studentAge >= 0)
+        {
+            age = studentAge;
+        }
+        else
+        {
+            System.out.println("Error: Given age must be a positive number");
+        }
+    }
+
+    // Sets name of the student according to the given argument
+    public void setName(String studentName)
+    {
+        name = studentName;
+    }
+
+    // Sets Student Id of the student according to the given argument
+    public void setStudentId(String studentIdentification)
+    {
+        studentId = studentIdentification;
+    }
 }

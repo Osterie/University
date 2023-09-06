@@ -9,4 +9,6 @@ comment3.params=
 comment3.target=java.lang.String\ getName()
 comment4.params=
 comment4.target=java.lang.String\ getStudentId()
-numComments=5
+comment5.params=studentAge
+comment5.target=void\ setAge(int)
+numComments=6
