@@ -37,6 +37,7 @@ public class StudentApp
 
         System.out.println(this.studentRegistry.getNumberOfStudents() + " Number of students");
         System.out.println(this.studentRegistry.getStudentAt(1) + " Student at index 1.");
+        System.out.println(this.studentRegistry.getStudentAt(2) + " Student at index 2.");
 
     }
     
