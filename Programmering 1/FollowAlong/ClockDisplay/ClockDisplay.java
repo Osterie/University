@@ -35,7 +35,7 @@ public class ClockDisplay
         // sets starting values
         this.hours.setValue(initialHours);
         this.minutes.setValue(initialMinutes);
-        this.seconds.setValue(initialMinutes);
+        this.seconds.setValue(initialSeconds);
     }   
 
     /*

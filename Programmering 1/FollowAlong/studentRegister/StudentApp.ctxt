@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=StudentApp
+comment0.text=\r\n\ Represent\ the\ application\ which\ can\ hancle\ one\ or\ more\ studens\ and\ calculate\ the\ average\ age.\r\n\r\n\ @author\ Adrian\r\n\ @version\ 2023-08-28\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=StudentApp()
+comment3.params=
+comment3.target=void\ start()
+comment4.params=student
+comment4.target=void\ printStudentInfo(Student)
+comment5.params=students
+comment5.target=float\ getAverageAge(java.util.ArrayList)
+numComments=6

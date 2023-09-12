@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=StudentRegistry
+comment0.text=\r\n\ Represents\ a\ register\ of\ students.\r\n\ <p>\ \r\n\ The\ following\ functionality\ is\ implemented.\r\n\ <ul>\r\n\ \ \ \ \ \ <li>\ Search\ for\ a\ student\ by\ name.\ </li>\r\n\ \ \ \ \ \ <li>\ Add\ a\ student\ </li>\r\n\ \ \ \ \ \ <li>\ Remove\ a\ student\ </li>\r\n\ \ \ \ \ \ <li>\ Get\ number\ of\ students\ </li>\r\n\ \ \ \ \ \ <li>\ Get\ a\ set\ of\ students\ </li>\r\n\ \ \ \ \ \ <li>\ List\ all\ students\ </li>\r\n\ \r\n\ <ul>\r\n\ <p>\r\n\r\n\ @author\ Osterie\ https\://github.com/Osterie\r\n\ @version\ 2023-09-11\r\n
+comment1.params=
+comment1.target=StudentRegistry()
+comment1.text=\r\n\ Creates\ an\ instance\ of\ StudentRegister.\r\n
+comment2.params=student
+comment2.target=void\ addStudent(Student)
+comment2.text=\r\n\ Adds\ a\ student\ to\ the\ register\r\n
+comment3.params=
+comment3.target=int\ getNumberOfStudents()
+comment3.text=\r\n\ Returns\ the\ number\ of\ studens\ in\ the\ register\r\n\ \r\n\ @return\ the\ number\ of\ studens\ in\ the\ register\r\n
+numComments=4
