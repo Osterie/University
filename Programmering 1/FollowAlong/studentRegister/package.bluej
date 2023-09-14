@@ -1,11 +1,11 @@
 #BlueJ package file
-dependency1.from=StudentRegistry
-dependency1.to=Student
+dependency1.from=StudentApp
+dependency1.to=StudentRegistry
 dependency1.type=UsesDependency
 dependency2.from=StudentApp
-dependency2.to=StudentRegistry
+dependency2.to=Student
 dependency2.type=UsesDependency
-dependency3.from=StudentApp
+dependency3.from=StudentRegistry
 dependency3.to=Student
 dependency3.type=UsesDependency
 editor.fx.0.height=0

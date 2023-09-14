@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ Represents\ a\ student\ with\ name,\ aeg\ and\ studentId\r\n\r\n\ @author\ Adrian\ Gj\u00F8sund\ Bj\u00F8rge\r\n\ @version\ 2023-08-28\r\n
+comment1.params=studentName\ studentAge\ studentIdentification
+comment1.target=Student(java.lang.String,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=int\ getAge()
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=java.lang.String\ getStudentId()
+comment5.params=studentAge
+comment5.target=void\ setAge(int)
+comment6.params=studentName
+comment6.target=void\ setName(java.lang.String)
+comment7.params=studentIdentification
+comment7.target=void\ setStudentId(java.lang.String)
+numComments=8

@@ -33,12 +33,12 @@ public class StudentApp
         this.studentRegistry.addStudent(new Student("Jens", 23, "329808"));
 
         //find the student at position 1
-        Student foundStudent = this.studentRegistry.getStudentAt(1);
+        // Student foundStudent = this.studentRegistry.getStudentAt(1);
 
-        System.out.println(this.studentRegistry.getNumberOfStudents() + " Number of students");
-        System.out.println(this.studentRegistry.getStudentAt(1) + " Student at index 1.");
-        System.out.println(this.studentRegistry.getStudentAt(2) + " Student at index 2.");
-
+        // System.out.println(this.studentRegistry.getNumberOfStudents() + " Number of students");
+        // System.out.println(this.studentRegistry.getStudentAt(1) + " Student at index 1.");
+        // System.out.println(this.studentRegistry.getStudentAt(2) + " Student at index 2.");
+        this.studentRegistry.printAllStudents();
     }
     
     private void printStudentInfo(Student student)

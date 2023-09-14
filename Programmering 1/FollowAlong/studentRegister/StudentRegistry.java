@@ -61,4 +61,57 @@ public class StudentRegistry
     {
         return this.students.get(index);
     }
+
+    /*
+     * Searches the registry for a student with the given name
+     * If no student matching the name is found, null is returned
+     * 
+     * @param name the name of the student to search for
+     * @return the student found with the given name
+     */
+
+    public Student findStudentByName(String name)
+    {
+        Student foundStudent = null;
+        int index = 0;
+        while ( (index < this.students.size() ) && ( foundStudent == null )) 
+        {
+            Student student = this.students.get(index);
+
+            if (student.getName().equals(name))
+            {
+                foundStudent = this.students.get(index);
+            }
+            
+            index ++;
+        }
+        return foundStudent;
+    }
+
+    /*
+     * Prints all students to the consol window
+     */
+    public void printAllStudents()
+    {
+        // For-each
+        for (Student student : this.students) 
+        {
+            System.out.println("Name" + student.getName());
+            System.out.println("Age" + student.getAge());
+            System.out.println("Student Id" + student.getStudentId());
+
+        }
+    }
+
+    /*
+     * Fills the register with 8 dummy students for testing purposes only.
+     */
+    public void fillRegisterWithDummyStudents()
+    {
+        for (int i = 0; i < 9; i++) 
+        {
+            Student dummyStudent = new Student("Dummy"+i, 20 + i, "000000");
+            this.addStudent(dummyStudent);
+        }
+    }
 }
