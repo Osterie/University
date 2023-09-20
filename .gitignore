@@ -1,0 +1,9 @@
+.bluej/
+.vscode/
+*.ctxt
+*.class
+*.bluej
+
+
+### Mac OS ###
+.DS_Store
