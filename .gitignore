@@ -1,8 +1,8 @@
-.bluej/
 .vscode/
 *.ctxt
 *.class
 *.bluej
+.idea/
 
 
 ### Mac OS ###
