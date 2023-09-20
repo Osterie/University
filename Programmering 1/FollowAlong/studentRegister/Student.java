@@ -24,7 +24,7 @@ public class Student
     {
         name = studentName;
         age = studentAge;
-        studentIdentification = studentId;
+        studentId = studentIdentification;
     }
 
     // Returns the age of the student

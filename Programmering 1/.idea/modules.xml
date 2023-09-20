@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Excercises/Excercises.iml" filepath="$PROJECT_DIR$/Excercises/Excercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FollowAlong/FollowAlong.iml" filepath="$PROJECT_DIR$/FollowAlong/FollowAlong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects(book)/JLayer1.0.1/JLayer1.0.1.iml" filepath="$PROJECT_DIR$/projects(book)/JLayer1.0.1/JLayer1.0.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Programmering 1.iml" filepath="$PROJECT_DIR$/.idea/Programmering 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects(book)/chapter01/chapter01.iml" filepath="$PROJECT_DIR$/projects(book)/chapter01/chapter01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects(book)/chapter02/chapter02.iml" filepath="$PROJECT_DIR$/projects(book)/chapter02/chapter02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects(book)/chapter03/chapter03.iml" filepath="$PROJECT_DIR$/projects(book)/chapter03/chapter03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects(book)/chapter04/chapter04.iml" filepath="$PROJECT_DIR$/projects(book)/chapter04/chapter04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects(book)/chapter05/chapter05.iml" filepath="$PROJECT_DIR$/projects(book)/chapter05/chapter05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects(book)/chapter06/chapter06.iml" filepath="$PROJECT_DIR$/projects(book)/chapter06/chapter06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects(book)/chapter07/chapter07.iml" filepath="$PROJECT_DIR$/projects(book)/chapter07/chapter07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects(book)/chapter08/chapter08.iml" filepath="$PROJECT_DIR$/projects(book)/chapter08/chapter08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects(book)/chapter09/chapter09.iml" filepath="$PROJECT_DIR$/projects(book)/chapter09/chapter09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects(book)/chapter10/chapter10.iml" filepath="$PROJECT_DIR$/projects(book)/chapter10/chapter10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects(book)/chapter11/chapter11.iml" filepath="$PROJECT_DIR$/projects(book)/chapter11/chapter11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects(book)/chapter12/chapter12.iml" filepath="$PROJECT_DIR$/projects(book)/chapter12/chapter12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects(book)/chapter13/chapter13.iml" filepath="$PROJECT_DIR$/projects(book)/chapter13/chapter13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects(book)/chapter14/chapter14.iml" filepath="$PROJECT_DIR$/projects(book)/chapter14/chapter14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects(book)/chapter16/chapter16.iml" filepath="$PROJECT_DIR$/projects(book)/chapter16/chapter16.iml" />
+    </modules>
+  </component>
+</project>

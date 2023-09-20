@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  * Represents a register of students.
@@ -70,37 +71,20 @@ public class StudentRegistry
      * @return the student found with the given name
      */
 
+
     public Student findStudentByName(String name)
     {
         Student foundStudent = null;
-        int index = 0;
-        while ( (index < this.students.size() ) && ( foundStudent == null )) 
+        Iterator<Student> iterator = this.students.iterator();
+        while ( (iterator.hasNext()) && ( foundStudent == null )) 
         {
-            Student student = this.students.get(index);
-
+            Student student = iterator.next();
             if (student.getName().equals(name))
             {
-                foundStudent = this.students.get(index);
+                foundStudent = student;
             }
-            
-            index ++;
         }
         return foundStudent;
-    }
-
-    /*
-     * Prints all students to the consol window
-     */
-    public void printAllStudents()
-    {
-        // For-each
-        for (Student student : this.students) 
-        {
-            System.out.println("Name" + student.getName());
-            System.out.println("Age" + student.getAge());
-            System.out.println("Student Id" + student.getStudentId());
-
-        }
     }
 
     /*
@@ -113,5 +97,11 @@ public class StudentRegistry
             Student dummyStudent = new Student("Dummy"+i, 20 + i, "000000");
             this.addStudent(dummyStudent);
         }
+    }
+
+    public Iterator<Student> iterator() 
+    {
+        Iterator<Student> iterator = this.students.iterator();
+        return iterator;
     }
 }

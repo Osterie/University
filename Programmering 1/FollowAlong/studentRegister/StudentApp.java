@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  * Represent the application which can hancle one or more studens and calculate the average age.
@@ -38,9 +39,26 @@ public class StudentApp
         // System.out.println(this.studentRegistry.getNumberOfStudents() + " Number of students");
         // System.out.println(this.studentRegistry.getStudentAt(1) + " Student at index 1.");
         // System.out.println(this.studentRegistry.getStudentAt(2) + " Student at index 2.");
-        this.studentRegistry.printAllStudents();
+        this.printAllStudents();
     }
-    
+
+    /*
+     * Prints all students to the consol window
+     */
+    public void printAllStudents()
+    {
+
+        Iterator<Student> iterator = this.studentRegistry.iterator();
+        while ( (iterator.hasNext())) 
+        {
+            Student student = iterator.next();
+
+            System.out.println("Name" + student.getName());
+            System.out.println("Age" + student.getAge());
+            System.out.println("Student Id" + student.getStudentId());
+        }
+    }
+
     private void printStudentInfo(Student student)
     {
         System.out.println("Name of student: " + student.getName());

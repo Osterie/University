@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/address-book-assert" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/address-book-io" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/address-book-junit" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/address-book-v1g" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/address-book-v1t" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/address-book-v2g" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/address-book-v2t" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/address-book-v3t" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tech-support-io" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weblog-analyzer" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
